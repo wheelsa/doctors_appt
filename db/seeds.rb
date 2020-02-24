@@ -8,7 +8,7 @@
 require 'faker'
 10.times do
   doctor = Doctor.create(
-    name: Faker::FunnyName.four_word_name
+    name: Faker::FunnyName.three_word_name
   )
   10.times do 
     patient = Patient.create(
